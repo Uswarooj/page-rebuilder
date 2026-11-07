@@ -1,0 +1,14 @@
+{
+  "name": "page-rebuilder",
+  "version": "0.1.0",
+  "description": "Rebuilds any page with animated cursors",
+  "type": "module",
+  "scripts": {
+    "dev":   "vite demo",
+    "build": "vite build",
+    "preview": "vite preview demo"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

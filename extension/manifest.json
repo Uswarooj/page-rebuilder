@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Page Rebuilder",
+  "version": "0.1.0",
+  "description": "Wipes the page and rebuilds it with animated cursors.",
+  "action": {
+    "default_title": "Page Rebuilder (Alt+Shift+R)"
+  },
+  "background": { "service_worker": "background.js" },
+  "permissions": ["activeTab", "scripting"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+R" },
+      "description": "Rebuild this page"
+    }
+  }
+}
